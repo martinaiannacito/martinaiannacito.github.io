@@ -10,7 +10,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 <h1 class="post-title">Thesis</h1>
-{% bibliography -f {{ site.scholar.bibliography }} -q @*[abbr={thesis}]* %}
+{% bibliography -f {{ site.scholar.bibliography }} -q @*[type={thesis}]* %}
 <!-- {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f {{ site.scholar.bibliography }} -q @*[year={{y}}]* %}
