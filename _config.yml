@@ -271,7 +271,10 @@ scholar:
 
   last_name: [Iannacito]
   first_name: [Martina]
-
+  
+  sort_by: year, month
+  order: descending
+  
   style: apa
   locale: en
 
