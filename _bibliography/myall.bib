@@ -9,8 +9,9 @@
 	url = {theses.fr/s349733},
 	school = {Inria center at the University of Bordeaux, France}, 
 	abbr = {thesis},
-	keyword = {new},
+	keywords={thesis},
 	pdf = {https://theses.hal.science/tel-03952711v1/document},
+	abstract = {This work aims to establish which theoretical properties of classical linear algebra techniques, developed in two different contexts, namely numerical linear algebra and data analysis, are maintained and which are lost when extended to low-rank tensors. In the numerical linear algebra part, we experimentally study the effects of rounding errors on an iterative solver (Generalised Minimal RESidual) and several orthogonalization methods (Classical and Modified Gram-Schmidt and Householder transformation, among others) when extended to tensors by the Tensor Train (TT) formalism. In all the considered algorithms, we introduce additional rounding steps, with the TT-rounding compression algorithm, to cope with memory constraints, which are always crucial when dealing with tensors. Our experimental tests suggest that for these algorithms, the classical bounds due to the propagation of rounding errors remain valid, replacing the accuracy of the arithmetic with that of the TT-rounding algorithm. In the data analysis part, we geometrically study the generalization of correspondence analysis to multi-way tables by the Tucker tensor decomposition technique, thus contributing to the understanding of Multi-Way Correspondence Analysis (MWCA). Examples of MWCA applied to datasets complement the theoretical results. In particular, we perform the MWCA on an original ecological dataset provided to us in the framework of the Malabar project of the BioGeCo (INRAE) and Pleiade (Inria) teams.},
 	slides = {Defence_09-12-22.pdf},
 }
 
@@ -22,12 +23,43 @@
 	url = {webapps.unitn.it/Biblioteca/it/Web/RichiestaConsultazioneTesi/365719},
 	school = {University of Trento, Italy},
 	abbr = {thesis},
+	keywords={thesis},
 	type = {thesis},
-	abstract = "bbb"
+	abstract = {Remote sensing has already proved its power in estimating plant biodiversity. Since plants reflect and absorb in a specific way sunlight, ecologists use multispectral photos to estimate plant biodiversity of a certain area through biodiversity indexes, e.g., Rényi's and Rao's index. Working with these big data is often expensive in terms of storage memory requirements. A possible solution is compressing multispectral data through tensor techniques, as \emph{High Order Singular Value Decomposition}. We apply two recent variants of HOSVD to spectral images and we compute biodiversity indexes over the compressed data generated. For the Rényi index compressing data is extremely advantageous, since the information loss in estimating biodiversity is very low. For Rao's index the results are not as satisfactory, even if they are promising. Using approximatively $15\%$ of the original data information, in the first case we estimate an average error per pixel between $5.5\%$ and $7.5\%$, while in the second case the average error per pixel is between $17\%$ and $19\%$.},
+	pdf = {Master_thesis.pdf},
+	slides = {Defence_17-07-19.pdf},
 }
 
 
 %%%%%%%%%%%% Internation journals 
+﻿@Article{Thouverai2021,
+	author={Thouverai, Elisa
+	and Marcantonio, Matteo
+	and Bacaro, Giovanni
+	and Re, Daniele Da
+	and Iannacito, Martina
+	and Marchetto, Elisa
+	and Ricotta, Carlo
+	and Tattoni, Clara
+	and Vicario, Saverio
+	and Rocchini, Duccio},
+	title={Measuring diversity from space: a global view of the free and open source rasterdiv R package under a coding perspective},
+	journal={Community Ecology},
+	year={2021},
+	month={Apr},
+	day={01},
+	volume={22},
+	number={1},
+	pages={1-11},
+	abstract={The variation of species diversity over space and time has been widely recognised as a key challenge in ecology. However, measuring species diversity over large areas might be difficult for logistic reasons related to both time and cost savings for sampling, as well as accessibility of remote ecosystems. In this paper, we present a new R package - rasterdiv - to calculate diversity indices based on remotely sensed data, by discussing the theory behind the developed algorithms. Obviously, measures of diversity from space should not be viewed as a replacement of in situ data on biological diversity, but they are rather complementary to existing data and approaches. In practice, they integrate available information of Earth surface properties, including aspects of functional (structural, biophysical and biochemical), taxonomic, phylogenetic and genetic diversity. Making use of the rasterdiv package can result useful in making multiple calculations based on reproducible open source algorithms, robustly rooted in Information Theory.},
+	issn={1588-2756},
+	doi={10.1007/s42974-021-00042-x},
+	pdf={https://doi.org/10.1007/s42974-021-00042-x},
+	keywords = {intjour},
+	abbr ={Comm. Eco.},
+
+}
+
 
 @article{Rocchini2021a,
 	author = {Rocchini, Duccio and Thouverai, Elisa and Marcantonio, Matteo and Iannacito, Martina and Da Re, Daniele and Torresani, Michele and Bacaro, Giovanni and Bazzichetto, Manuele and Bernardi, Alessandra and Foody, Giles M. and Furrer, Reinhard and Kleijn, David and Larsen, Stefano and Lenoir, Jonathan and Malavasi, Marco and Marchetto, Elisa and Messori, Filippo and Monkeywordhi, Alessandro and Moudrý, Vítězslav and Naimi, Babak and Ricotta, Carlo and Rossini, Micol and Santi, Francesco and Santos, Maria J. and Schaepman, Michael E. and Schneider, Fabian D. and Schuh, Leila and Silvestri, Sonia and Ŝímová, Petra and Skidmore, Andrew K. and Tattoni, Clara and Tordoni, Enrico and Vicario, Saverio and Zannini, Piero and Wegmann, Martin},
@@ -43,7 +75,9 @@
 	year = {2021},
 	month = Feb,
 	keywords = {intjour},
-	abstract = {test}
+	abstract = {Abstract Ecosystem heterogeneity has been widely recognized as a key ecological indicator of several ecological functions, diversity patterns and change, metapopulation dynamics, population connectivity or gene flow. In this paper, we present a new R package—rasterdiv—to calculate heterogeneity indices based on remotely sensed data. We also provide an ecological application at the landscape scale and demonstrate its power in revealing potentially hidden heterogeneity patterns. The rasterdiv package allows calculating multiple indices, robustly rooted in Information Theory, and based on reproducible open-source algorithms.},
+	abbr = {MEE},
+	pdf = {https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13583}
 }
 
 @article{Rocchini2021b,
@@ -60,7 +94,9 @@
 	year = {2021},
 	month = Mar,
 	keywords = {intjour},
-	abstract = "test"
+	abstract = {Abstract Aim The majority of work done to gather information on the Earth's biodiversity has been carried out using in-situ data, with known issues related to epistemology (e.g., species determination and taxonomy), spatial uncertainty, logistics (time and costs), among others. An alternative way to gather information about spatial ecosystem variability is the use of satellite remote sensing. It works as a powerful tool for attaining rapid and standardized information. Several metrics used to calculate remotely sensed diversity of ecosystems are based on Shannon’s information theory, namely on the differences in relative abundance of pixel reflectances in a certain area. Additional metrics like the Rao’s quadratic entropy allow the use of spectral distance beside abundance, but they are point descriptors of diversity, that is they can account only for a part of the whole diversity continuum. The aim of this paper is thus to generalize the Rao’s quadratic entropy by proposing its parameterization for the first time. Innovation The parametric Rao’s quadratic entropy, coded in R, (a) allows the representation of the whole continuum of potential diversity indices in one formula, and (b) starting from the Rao’s quadratic entropy, allows the explicit use of distances among pixel reflectance values, together with relative abundances. Main conclusions The proposed unifying measure is an integration between abundance- and distance-based algorithms to map the continuum of diversity given a satellite image at any spatial scale. Being part of the rasterdiv R package, the proposed method is expected to ensure high robustness and reproducibility.},
+	abbr = {Glob. Ecol.},
+	pdf = {https://hal.science/hal-03363010}
 }
 
 
@@ -97,8 +133,10 @@
 	pages={557-591},
 	issn={2198-2759},
 	doi={10.1007/s40574-021-00300-w},
-	url={doi.org/10.1007/s40574-021-00300-w},
-	keywords ={natjour}
+	pdf={https://link.springer.com/article/10.1007/s40574-021-00300-w},
+	keywords ={natjour},
+	abstract = {We propose a new method to estimate plant diversity with Rényi and Rao indexes through the so called High Order Singular Value Decomposition (HOSVD) of tensors. Starting from NASA multi-spectral images we evaluate diversity and we compare original diversity estimates with those realized via the HOSVD compression methods for big data. Our strategy turns out to be extremely powerful in terms of memory storage and precision of the outcome. The obtained results are so promising that we can support the efficiency of our method in the ecological framework.},
+	abbr = {BUMI},
 }
 
 %%%%%%%%%%%%%%%%% national conferences
@@ -115,16 +153,18 @@
 	YEAR = {2022},
 	MONTH = Nov,
 	KEYWORDS = {Classical Gram-Schmidt ; Modified Gram-Schmidt ; Householder transformation ; loss of orthogonality ; Tensor Train format ; Gram-Schmidt classique ; Gram-Schmidt modifi{\'e}e ; transformation de Householder ; perte d'orthogonalit{\'e} ; Tensor Train format},
-	PDF = {hal.archives-ouvertes.fr/hal-03850387v2/file/RR-9491.pdf},
+	PDF = {https://hal.science/hal-03850387},
 	HAL_ID = {hal-03850387},
 	HAL_VERSION = {v2},
-	keywords = {report}
+	keywords = {report},
+	abstract = {In the framework of tensor spaces, we consider orthogonalization kernels to generate an orthogonal basis of a tensor subspace from a set of linearly independent tensors. In particular, we investigate numerically the loss of orthogonality of six orthogonalization methods, namely Classical and Modified Gram-Schmidt with (CGS2, MGS2) and without (CGS, MGS) re-orthogonalization, the Gram approach, and the Householder transformation. To tackle the curse of dimensionality, we represent tensor with low rank approximation using the Tensor Train (TT) formalism, and we introduce recompression steps in the standard algorithm outline through the TT-rounding method at a prescribed accuracy. After describing the algorithm structure and properties, we illustrate numerically that the theoretical bounds for the loss of orthogonality in the classical matrix computation round-off analysis results are maintained, with the unit round-off replaced by the TT-rounding accuracy. The computational analysis for each orthogonalization kernel in terms of the memory requirement and the computational complexity measured as a function of the number of TT-rounding, which happens to be the computational most expensive operation, completes the study.},
+	abbr = {HAL}
 }
 
 @techreport{Agullo2022,
 	TITLE = {{The backward stable variants of GMRES in variable accuracy}},
 	AUTHOR = {Agullo, Emmanuel and Coulaud, Olivier and Giraud, Luc and Iannacito, Martina and Marait, Gilles and Schenkels, Nick},
-	URL = {hal.inria.fr/hal-03776837},
+	URL = {https://hal.science/hal-03776837},
 	TYPE = {Research Report},
 	NUMBER = {RR-9483},
 	PAGES = {1-77},
@@ -132,42 +172,48 @@
 	YEAR = {2022},
 	MONTH = Sep,
 	KEYWORDS = {Householder reflection ; lossy compression ; tensor ; tensor-train ; GMRES ; backward stability ; variable accuracy ; mixed precision ; Modified Gram-Schmidt ; GMRES ; stabilit{\'e} inverse ; pr{\'e}cision variable ; pr{\'e}cision mixe ; Gram-Schmidt Modifi{\'e} ; r{\'e}flexion d'Householder ; compression avec perte ; tenseur ; train de tenseur},
-	PDF = {hal.inria.fr/hal-03776837v3/file/RR-9483.pdf},
+	PDF = {https://hal.science/hal-03776837},
 	HAL_ID = {hal-03776837},
 	HAL_VERSION = {v3},
-	keywords = {report}
+	keywords = {report},
+	abbr = {HAL},
+	abstract = {In the context where the representation of the data is decoupled from the arithmetic used to process them, we investigate the backward stability of two backward-stable implementations of the GMRES method, namely the so-called Modified Gram-Schmidt (MGS) and the Householder variants. Considering data may be compressed to alleviate the memory footprint, we are interested in the situation where the leading part of the rounding error is related to the data representation. When the data representation of vectors introduces componentwise perturbations, we show that the existing backward stability analyses of MGS-GMRES and Householder-GMRES still apply. We illustrate this backward stability property in a practical context where an agnostic lossy compressor is employed and enables the reduction of the memory requirement to store the orthonormal Arnoldi basis or the Householder reflectors. Although technical arguments of the theoretical backward stability proofs do not readily apply to the situation where only the normwise relative perturbations of the vector storage can be controlled, we show experimentally that the backward stability is maintained; that is, the attainable normwise backward error is of the same order as the normwise perturbations induced by the data storage. We illustrate it with numerical experiments in two practical different contexts. The first one corresponds to the use of an agnostic compressor where vector compression is controlled normwise. The second one arises in the solution of tensor linear systems, where low-rank tensor approximations based on Tensor-Train is considered to tackle the curse of dimensionality.},
 }
 
 @techreport{Coulaud2022a,
 	TITLE = {{A robust GMRES algorithm in Tensor Train format}},
 	AUTHOR = {Coulaud, Olivier and Giraud, Luc and Iannacito, Martina},
-	URL = {hal.inria.fr/hal-03776529},
+	URL = {https://hal.science/hal-03776529},
 	TYPE = {Research Report},
 	NUMBER = {RR-9484},
 	PAGES = {1-48},
 	INSTITUTION = {Inria center at the University of Bordeaux}, 
 	MONTH = Sep,
 	KEYWORDS = {GMRES ; backward stability ; Tensor Train format ; backward stabilit{\'e} ; format Tenseur Train},
-	PDF = {hal.inria.fr/hal-03776529v3/file/RR-9484.pdf},
+	PDF = {https://hal.science/hal-03776529v3},
 	HAL_ID = {hal-03776529},
 	HAL_VERSION = {v3},
-	keywords = {report}
+	keywords = {report},
+	abbr = {HAL},
+	abstract = {In the context where the representation of the data is decoupled from the arithmetic used to process them, we investigate the backward stability of two backward-stable implementations of the GMRES method, namely the so-called Modified Gram-Schmidt (MGS) and the Householder variants. Considering data may be compressed to alleviate the memory footprint, we are interested in the situation where the leading part of the rounding error is related to the data representation. When the data representation of vectors introduces componentwise perturbations, we show that the existing backward stability analyses of MGS-GMRES and Householder-GMRES still apply. We illustrate this backward stability property in a practical context where an agnostic lossy compressor is employed and enables the reduction of the memory requirement to store the orthonormal Arnoldi basis or the Householder reflectors. Although technical arguments of the theoretical backward stability proofs do not readily apply to the situation where only the normwise relative perturbations of the vector storage can be controlled, we show experimentally that the backward stability is maintained; that is, the attainable normwise backward error is of the same order as the normwise perturbations induced by the data storage. We illustrate it with numerical experiments in two practical different contexts. The first one corresponds to the use of an agnostic compressor where vector compression is controlled normwise. The second one arises in the solution of tensor linear systems, where low-rank tensor approximations based on Tensor-Train is considered to tackle the curse of dimensionality.},
 }
 
 @techreport{Coulaud2021,
 	TITLE = {{Extension of Correspondence Analysis to multiway data-sets through High Order SVD: a geometric framework}},
 	AUTHOR = {Coulaud, Olivier and Franc, Alain and Iannacito, Martina},
-	URL = {hal.inria.fr/hal-03418404},
+	URL = {https://hal.science/hal-03418404},
 	TYPE = {Research Report},
 	NUMBER = {RR-9429},
 	INSTITUTION = {Inria center at the University of Bordeaux; INRAE}, 
 	YEAR = {2021},
 	MONTH = Nov,
 	KEYWORDS = {Correspondence analysis ; Tucker model ; HOSVD ; Tensors ; Barycentric relation ; Point clouds ; Analyse des correspondances ; Mod{\`e}le de Tucker ; Tenseurs ; Relation barycentrique ; Nuages de points},
-	PDF = {hal.inria.fr/hal-03418404/file/RR-9429.pdf},
+	PDF = {https://hal.science/hal-03418404},
 	HAL_ID = {hal-03418404},
 	HAL_VERSION = {v1},
-	keywords = {report}
+	keywords = {report},
+	abbr ={HAL},
+	abstract ={This paper presents an extension of Correspondence Analysis (CA) to tensors through High Order Singular Value Decomposition (HOSVD) from a geometric viewpoint. Correspondence analysis is a well-known tool, developed from principal component analysis, for studying contingency tables. Different algebraic extensions of CA to multi-way tables have been proposed over the years, nevertheless neglecting its geometric meaning. Relying on the Tucker model and the HOSVD, we propose a direct way to associate with each tensor mode a point cloud. We prove that the point clouds are related to each other. Specifically using the CA metrics we show that the barycentric relation is still true in the tensor framework. Finally two data sets are used to underline the advantages and the drawbacks of our strategy with respect to the classical matrix approaches.},
 }
 
 
