@@ -12,7 +12,7 @@ nav_order: 1
 <h1 class="post-title">Peer-reviewed journal</h1>
 {% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=intjour || keywords=natjour]* %}
 
-<h1 class="post-title">Research reports</h1>
+<h1 class="post-title">Preprints</h1>
 {% bibliography -f {{ site.scholar.bibliography }} -q @*[keywords=report]* %}
 
 <h1 class="post-title">Other works</h1>
