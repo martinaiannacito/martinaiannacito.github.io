@@ -33,7 +33,20 @@
             <span class="icon-bar middle-bar"></span>
             <span class="icon-bar bottom-bar"></span>
           </button>
-
+          <!-- About 
+          {%- for page in site.pages -%}
+            {% if page.permalink == '/' %}
+              {% assign about_title = page.title %}
+            {% endif %}
+          {% endfor %}
+          <li class="toggle-container">
+            <button id="home-toggle" title="Home" onclick="location.href='/'" value="Go to Google">
+              <i class="fas fa-house-user"></i>
+              {%- if page.permalink == '/' -%}
+                  <span class="sr-only">(current)</span>
+              {%- endif -%}
+            </button>
+          </li>-->
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
@@ -42,15 +55,29 @@
                   {% assign about_title = page.title %}
                 {% endif %}
               {% endfor %}
-
-              <!-- About -->
+              
+              <li class="toggle-container">
+                <button id="home-toggle" title="Home" style="visibility: hidden;">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              
+              <button id="home-toggle" title="Home" onclick="location.href='/'" value="Go to Google">
+                  <i class="fas fa-house-user"></i>
+                  {%- if page.permalink == '/' -%}
+                      <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </button>
+                </li>
+                
+              <!-- About               
               <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+                <a class="fas fa-house-user" href="{{ '/' | relative_url }}">{{ about_title }}
                   {%- if page.permalink == '/' -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
-              </li>
+              </li>-->
               {% if site.blog_nav_title %}
               <!-- Blog -->
               <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
@@ -83,6 +110,7 @@
                   {% endfor %}
                 </div>
               </li>
+              
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}
@@ -94,15 +122,22 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
-              {%- if site.enable_darkmode %}
 
+              {%- if site.enable_darkmode %}
               <!-- Toogle theme mode -->
               <li class="toggle-container">
                 <button id="light-toggle" title="Change theme">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </button>
-              </li>
+              <!--
+              <button id="home-toggle" title="Home" onclick="location.href='/'" value="Go to Google">
+                  <i class="fas fa-house-user"></i>
+                  {%- if page.permalink == '/' -%}
+                      <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </button>-->
+                </li>
               {%- endif %}
             </ul>
           </div>

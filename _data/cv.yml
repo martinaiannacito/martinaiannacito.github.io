@@ -52,8 +52,22 @@
       institution: Katholieke Universiteit Leuven, Kortrijk, Belgium
       year: 2023 - now
       description:
-        - Member of the Group Science, Engineering and Technology of Kulak working with Prof. Lieven De Lathauwer.
-        - My current research topics are numerical multilinear algebra and tensor decomposition.
+        - Member of the Science, Engineering and Technology Group at Kulak
+        - Working on canonical polyadic decomposition, blind source separation, algebraic algorithms
+    - title: Ph.D. student
+      institution: Inria center at the University of Bordeaux
+      year: 2019 - 2022
+      description:
+        - Member of the Concace and HiePACS team
+        - Working on numerical linear algebra, tensor computation, low-rank compression, data science
+    - title: Master's student
+      institution: University of Trento
+      year: 2019
+      description:
+        - Member of Mathematical departement
+        - Working on tensor computation, remote sensing, biodiversity estimate
+
+
 
 - title: Teaching activities
   type: time_table

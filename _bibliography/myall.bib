@@ -26,7 +26,7 @@
 	abbr = {thesis},
 	keywords={thesis},
 	type = {thesis},
-	abstract = {Remote sensing has already proved its power in estimating plant biodiversity. Since plants reflect and absorb in a specific way sunlight, ecologists use multispectral photos to estimate plant biodiversity of a certain area through biodiversity indexes, e.g., Rényi's and Rao's index. Working with these big data is often expensive in terms of storage memory requirements. A possible solution is compressing multispectral data through tensor techniques, as \emph{High Order Singular Value Decomposition}. We apply two recent variants of HOSVD to spectral images and we compute biodiversity indexes over the compressed data generated. For the Rényi index compressing data is extremely advantageous, since the information loss in estimating biodiversity is very low. For Rao's index the results are not as satisfactory, even if they are promising. Using approximatively $15\%$ of the original data information, in the first case we estimate an average error per pixel between $5.5\%$ and $7.5\%$, while in the second case the average error per pixel is between $17\%$ and $19\%$.},
+	abstract = {Remote sensing has already proved its power in estimating plant biodiversity. Since plants reflect and absorb in a specific way sunlight, ecologists use multispectral photos to estimate plant biodiversity of a certain area through biodiversity indexes, e.g., Rényi's and Rao's index. Working with these big data is often expensive in terms of storage memory requirements. A possible solution is compressing multispectral data through tensor techniques, as {High Order Singular Value Decomposition}. We apply two recent variants of HOSVD to spectral images and we compute biodiversity indexes over the compressed data generated. For the Rényi index compressing data is extremely advantageous, since the information loss in estimating biodiversity is very low. For Rao's index the results are not as satisfactory, even if they are promising. Using approximatively $15\%$ of the original data information, in the first case we estimate an average error per pixel between $5.5\%$ and $7.5\%$, while in the second case the average error per pixel is between $17\%$ and $19\%$.},
 	pdf = {Master_thesis.pdf},
 	slides = {Defence_17-07-19.pdf},
 	bibtex_show = True,
@@ -58,6 +58,7 @@
 	doi={10.1007/s42974-021-00042-x},
 	pdf={https://doi.org/10.1007/s42974-021-00042-x},
 	keywords = {intjour},
+	tag = {journal},
 	abbr ={Comm. Eco.},
 	bibtex_show = True,
 }
@@ -77,7 +78,8 @@
 	year = {2021},
 	month = Feb,
 	keywords = {intjour},
-	abstract = {Abstract Ecosystem heterogeneity has been widely recognized as a key ecological indicator of several ecological functions, diversity patterns and change, metapopulation dynamics, population connectivity or gene flow. In this paper, we present a new R package—rasterdiv—to calculate heterogeneity indices based on remotely sensed data. We also provide an ecological application at the landscape scale and demonstrate its power in revealing potentially hidden heterogeneity patterns. The rasterdiv package allows calculating multiple indices, robustly rooted in Information Theory, and based on reproducible open-source algorithms.},
+	tag = {journal},
+	abstract = {Ecosystem heterogeneity has been widely recognized as a key ecological indicator of several ecological functions, diversity patterns and change, metapopulation dynamics, population connectivity or gene flow. In this paper, we present a new R package—rasterdiv—to calculate heterogeneity indices based on remotely sensed data. We also provide an ecological application at the landscape scale and demonstrate its power in revealing potentially hidden heterogeneity patterns. The rasterdiv package allows calculating multiple indices, robustly rooted in Information Theory, and based on reproducible open-source algorithms.},
 	abbr = {MEE},
 	pdf = {https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.13583},
 	bibtex_show = True,
@@ -97,7 +99,8 @@
 	year = {2021},
 	month = Mar,
 	keywords = {intjour},
-	abstract = {Abstract Aim The majority of work done to gather information on the Earth's biodiversity has been carried out using in-situ data, with known issues related to epistemology (e.g., species determination and taxonomy), spatial uncertainty, logistics (time and costs), among others. An alternative way to gather information about spatial ecosystem variability is the use of satellite remote sensing. It works as a powerful tool for attaining rapid and standardized information. Several metrics used to calculate remotely sensed diversity of ecosystems are based on Shannon’s information theory, namely on the differences in relative abundance of pixel reflectances in a certain area. Additional metrics like the Rao’s quadratic entropy allow the use of spectral distance beside abundance, but they are point descriptors of diversity, that is they can account only for a part of the whole diversity continuum. The aim of this paper is thus to generalize the Rao’s quadratic entropy by proposing its parameterization for the first time. Innovation The parametric Rao’s quadratic entropy, coded in R, (a) allows the representation of the whole continuum of potential diversity indices in one formula, and (b) starting from the Rao’s quadratic entropy, allows the explicit use of distances among pixel reflectance values, together with relative abundances. Main conclusions The proposed unifying measure is an integration between abundance- and distance-based algorithms to map the continuum of diversity given a satellite image at any spatial scale. Being part of the rasterdiv R package, the proposed method is expected to ensure high robustness and reproducibility.},
+	tag = {journal},
+	abstract = {The majority of work done to gather information on the Earth's biodiversity has been carried out using in-situ data, with known issues related to epistemology (e.g., species determination and taxonomy), spatial uncertainty, logistics (time and costs), among others. An alternative way to gather information about spatial ecosystem variability is the use of satellite remote sensing. It works as a powerful tool for attaining rapid and standardized information. Several metrics used to calculate remotely sensed diversity of ecosystems are based on Shannon’s information theory, namely on the differences in relative abundance of pixel reflectances in a certain area. Additional metrics like the Rao’s quadratic entropy allow the use of spectral distance beside abundance, but they are point descriptors of diversity, that is they can account only for a part of the whole diversity continuum. The aim of this paper is thus to generalize the Rao’s quadratic entropy by proposing its parameterization for the first time. Innovation The parametric Rao’s quadratic entropy, coded in R, (a) allows the representation of the whole continuum of potential diversity indices in one formula, and (b) starting from the Rao’s quadratic entropy, allows the explicit use of distances among pixel reflectance values, together with relative abundances. Main conclusions The proposed unifying measure is an integration between abundance- and distance-based algorithms to map the continuum of diversity given a satellite image at any spatial scale. Being part of the rasterdiv R package, the proposed method is expected to ensure high robustness and reproducibility.},
 	abbr = {Glob. Ecol.},
 	pdf = {https://hal.science/hal-03363010},
 	bibtex_show = True,
@@ -110,16 +113,40 @@
 	TITLE = {{Extension of Correspondence Analysis to multiway data-sets through HOSVD: a geometric framework}},
 	AUTHOR = {Iannacito, Martina and Coulaud, Olivier and Franc, Alain},
 	PDF = {https://hal.science/hal-03826894},
-	BOOKTITLE = {{MDS 2022 - SIAM Conference on Mathematics of Data Science}},
+	booktitle = {{Tensor Decompositions for Data Science}},
+	editor = {{R. Minster, and N. Vannieuwenhoven}},
+	publisher = {{SIAM Conference on Mathematics of Data Science}},
 	ADDRESS = {San Diego / Hybrid, United States},
 	YEAR = {2022},
 	MONTH = Sep,
 	HAL_ID = {hal-03826894},
 	HAL_VERSION = {v1},
 	keywords ={intconf},
+	tag = {conference},
 	abbr = {SIAM MDS22},
 	html = {https://www.siam.org/conferences/cm/conference/mds22},
 	}
+
+@inproceedings{Iannacito2023AG,
+	TITLE = {{On Some Orthogonalization Schemes in Tensor Train Format}},
+	AUTHOR = {Iannacito, Martina and Coulaud, Olivier and Giraud, Luc},
+	PDF = {},
+	booktitle = {{Geometry in Optimization and Numerical (Multi)Linear Algebra}},
+	editor = {{K. Usevich, and Y. Qi}},
+	publisher = {{SIAM Conference on Applied Algebraic Geometry}},
+	ADDRESS = {Eindhoven / Hybrid, Netherlands},
+	YEAR = {2023},
+	MONTH = Jul,
+	HAL_ID = {},
+	HAL_VERSION = {v1},
+	keywords ={intconf},
+	tag = {conference},
+	abbr = {SIAM AG23},
+	html = {https://www.siam.org/conferences/cm/conference/ag23},
+	}
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%% national journals
@@ -140,12 +167,34 @@
 	doi={10.1007/s40574-021-00300-w},
 	pdf={https://link.springer.com/article/10.1007/s40574-021-00300-w},
 	keywords ={natjour},
+	tag = {journal},
 	abstract = {We propose a new method to estimate plant diversity with Rényi and Rao indexes through the so called High Order Singular Value Decomposition (HOSVD) of tensors. Starting from NASA multi-spectral images we evaluate diversity and we compare original diversity estimates with those realized via the HOSVD compression methods for big data. Our strategy turns out to be extremely powerful in terms of memory storage and precision of the outcome. The obtained results are so promising that we can support the efficiency of our method in the ecological framework.},
 	bibtex_show = True,
 	abbr = {BUMI},
 }
 
 %%%%%%%%%%%%%%%%% national conferences
+
+@inproceedings{Iannacito202329NAC,
+	TITLE = {Orthogonalization schemes in Tensor Train format},
+	AUTHOR = {Iannacito, Martina and Coulaud, Olivier and Giraud, Luc},
+	PDF = {},
+	BOOKTITLE = {{Approximate computing in numerical linear algebra}},
+	EDITOR = {{N. Higham, X. Liu, and B. Vieubl\'e}},
+	SERIES = {},
+	ADDRESS = {Glasgow, United Kingdom},
+	organization = {University of Strathclyde Glasgow},
+	publisher = {29th Biennial Conference on Numerical Analysis},
+	YEAR = {2023},
+	MONTH = Jun,
+	HAL_ID = {},
+	HAL_VERSION = {v1},
+	keywords ={natconf},
+	tag = {conference},
+	abbr = {29 NAC},
+	html = {https://numericalanalysisconference.org.uk/},
+	}
+
 
 %%%%%%%%%%%%%%%%% research report
 
@@ -204,8 +253,8 @@
 	keywords = {report},
 	bibtex_show = True,
 	abbr = {HAL},
-	abstract = {In the context where the representation of the data is decoupled from the arithmetic used to process them, we investigate the backward stability of two backward-stable implementations of the GMRES method, namely the so-called Modified Gram-Schmidt (MGS) and the Householder variants. Considering data may be compressed to alleviate the memory footprint, we are interested in the situation where the leading part of the rounding error is related to the data representation. When the data representation of vectors introduces componentwise perturbations, we show that the existing backward stability analyses of MGS-GMRES and Householder-GMRES still apply. We illustrate this backward stability property in a practical context where an agnostic lossy compressor is employed and enables the reduction of the memory requirement to store the orthonormal Arnoldi basis or the Householder reflectors. Although technical arguments of the theoretical backward stability proofs do not readily apply to the situation where only the normwise relative perturbations of the vector storage can be controlled, we show experimentally that the backward stability is maintained; that is, the attainable normwise backward error is of the same order as the normwise perturbations induced by the data storage. We illustrate it with numerical experiments in two practical different contexts. The first one corresponds to the use of an agnostic compressor where vector compression is controlled normwise. The second one arises in the solution of tensor linear systems, where low-rank tensor approximations based on Tensor-Train is considered to tackle the curse of dimensionality.},
-}
+	abstract = {We consider the solution of linear systems with tensor product structure using a GMRES algorithm. In order to cope with the computational complexity in large dimension both in terms of floating point operations and memory requirement, our algorithm is based on low-rank tensor representation, namely the Tensor Train format. In a backward error analysis framework, we show how the tensor approximation affects the accuracy of the computed solution. With the bacwkward perspective, we investigate the situations where the (𝑑+1)-dimensional problem to be solved results from the concatenation of a sequence of 𝑑-dimensional problems (like parametric linear operator or parametric right-hand side problems), we provide backward error bounds to relate the accuracy of the (𝑑+1)-dimensional computed solution with the numerical quality of the sequence of 𝑑-dimensional solutions that can be extracted form it. This enables to prescribe convergence threshold when solving the (𝑑+1)-dimensional problem that ensures the numerical quality of the 𝑑-dimensional solutions that will be extracted from the (𝑑+1)-dimensional computed solution once the solver has converged. The above mentioned features are illustrated on a set of academic examples of varying dimensions and sizes.}
+	}
 
 @techreport{Coulaud2021,
 	TITLE = {{Extension of Correspondence Analysis to multiway data-sets through High Order SVD: a geometric framework}},
@@ -229,13 +278,15 @@
 
 %%%%%%%%%%%%%%%%%%%% workshop
 
+
 @inproceedings{Iannacito2022NLA,
 	TITLE = {{GMRES in variable accuracy: a case study in low rank tensor linear systems}},
 	AUTHOR = {Iannacito, Martina and Agullo, Emmanuel and Coulaud, Olivier and Giraud, Luc and Marait, Gilles and Schenkels, Nick},
 	PDF = {https://hal.science/hal-03826879},
-	BOOKTITLE = {{GAMM - Workshop on Applied and Numerical Linear Algebra 2022}},
+	booktitle = {GAMM - Workshop on Applied and Numerical Linear Algebra 2022},
+	publisher = {Faculty of Mathematics and Physics, Charles University},
 	ADDRESS = {Prague, Czech Republic},
-	EDITOR = {{Erin Carson and Iveta Hn{\v e}tynkov{\'a} and Stefano Pozza and Petr Tich{\'y} and Miroslav T{\r u}ma}},
+	EDITOR = {{E. Carson, I. Hn{\v e}tynkov{\'a}, S. Pozza, P.  Tich{\'y}, and M. T{\r u}ma}},
 	YEAR = {2022},
 	MONTH = Sep,
 	HAL_ID = {hal-03826879},
@@ -246,17 +297,111 @@
 }
 
 
+@inproceedings{Iannacito2023BIRS,
+	TITLE = {{An algebraic algorithm for blind source separation and tensor decomposition}},
+	AUTHOR = {Iannacito, Martina and De Lathauwer, Lieven and Domanov, Ignat},
+	PDF = {},
+	booktitle = {{New Directions in Applied Linear Algebra}},
+	ADDRESS = {Banff, Canada},
+	EDITOR = {{J. Cockayne, J. Pearson, J. Pestana, D. Silvester, and V. Simoncini}},
+	YEAR = {2023},
+	MONTH = Aug,
+	HAL_ID = {},
+	HAL_VERSION = {},
+	keywords = {workshop},
+	publisher = {Banff International Research Station},
+	abbr = {BIRS 23},
+	html = {https://www.birs.ca/events/2023/5-day-workshops/23w5004},
+}
+
+@inproceedings{Iannacito2023METTX,
+	TITLE = {{An algebraic algorithm for blind source separation and tensor decomposition}},
+	AUTHOR = {Iannacito, Martina and De Lathauwer, Lieven and Domanov, Ignat},
+	PDF = {},
+	booktitle = {{Matrix Equations and Tensor Techniques X}},
+	publisher = {RWTH Aachen University},
+	ADDRESS = {Aachen, Germany},
+	EDITOR = {{P. Benner, H. Fa{\ss}bender, L. Grasedyck, D. Kressner, B. Meini, and V. Simoncini}},
+	YEAR = {2023},
+	MONTH = Sep,
+	HAL_ID = {},
+	HAL_VERSION = {},
+	keywords = {workshop},
+	abbr = {METT X},
+	html = {https://www.igpm.rwth-aachen.de/workshop/mett2023},
+}
+
+
 %%%%%%%%%%%%%%%%%%%%%% seminars
+
+
+@inproceedings{Iannacito2023APO,
+	TITLE = {Tensor-based algorithms: applications and challanges},
+	AUTHOR = {Iannacito, Martina},
+	organization = {{A}lgorithmes {P}arallèles et {O}ptimisation team},
+	publisher = {{ENSEEIHT}},
+	ADDRESS = {Toulouse, France},
+	YEAR = {2023},
+	MONTH = Dec,
+	keywords = {seminar}
+}
+
+
+@inproceedings{Iannacito2023UniPI,
+	TITLE = {Introduzione ai tensori: dalle applicazioni alle sfide contemporanee},
+	AUTHOR = {Iannacito, Martina},
+	organization = {{Pisan Young Seminars in Applied and NUmerical Mathematics}},
+	publisher = {Mathematical departement of Pisa University},
+	ADDRESS = {Pisa, Italy},
+	YEAR = {2023},
+	MONTH = Nov,
+	keywords = {seminar}
+}
+
+
+@inproceedings{Iannacito2023UniTN,
+	TITLE = {Discovering tensors: their challenges and applications},
+	AUTHOR = {Iannacito, Martina},
+	organization = {TensorDay 2023},
+	publisher={Mathematical departement of Trento University},
+	ADDRESS = {Trento, Italy},
+	YEAR = {2023},
+	MONTH = Nov,
+	keywords = {seminar}
+}
+
+@inproceedings{Iannacito2023Numa,
+	TITLE = {From blind source separation to tensor decomposition: an algebraic algorithm},
+	AUTHOR = {Iannacito, Martina and De Lathauwer, Lieven and Domanov, Ignat},
+	organization = {{NUMA} seminars},
+	publisher={Computer Science departement of KU Leuven},
+	ADDRESS = {Leuven, Belgium},
+	YEAR = {2023},
+	MONTH = Oct,
+	keywords = {seminar}
+}
+
 @inproceedings{Iannacito2022GT,
 	TITLE = {Solving linear systems in high dimension with {TT-GMRES}},
 	AUTHOR = {Iannacito, Martina and Coulaud, Olivier and Giraud, Luc},
-	BOOKTITLE = {Working group on tensors - Inria center at the University of Bordeaux},
+	organization = {Working group on tensors},
 	ADDRESS = {Bordeaux, France},
-	EDITOR = {Inria center at the University of Bordeaux},
+	publisher = {Inria Center at the University of Bordeaux},
 	YEAR = {2022},
 	MONTH = Feb,
-	keywords = {seminar},
-	abbr = {GT tenseur},
+	keywords = {seminar}
+}
+
+
+@inproceedings{Iannacito2020GT,
+	TITLE = {Malabar dataset: data analysis in tensor format},
+	AUTHOR = {Iannacito, Martina and Coulaud, Olivier and Fran, Alain},
+	organization = {Working group on tensors},
+	ADDRESS = {Bordeaux, France},
+	publisher = {Inria Center at the University of Bordeaux},
+	YEAR = {2020},
+	MONTH = May,
+	keywords = {seminar}
 }
 
 
