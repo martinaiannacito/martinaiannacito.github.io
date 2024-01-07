@@ -20,14 +20,14 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a postdoctoral researcher in the Science, Engineering and Technology group at the 
-Kulak campus of [KU Leuven](https://kuleuven.be/english/kuleuven/). My research area is **numerical linear algebra** and **scientific computing**. ng. I am particularly interested in **tensor-based algorithms**
-and **finite precision arithmetic**. I am currently working under the supervision of 
-Prof. [Lieven De Lathauwer](https://www.esat.kuleuven.be/stadius/person.php?id=22) on the development a numerical algorithm for computing the <em>Canonical Polyadic</em> tensor <em>Decomposition</em> and a generically unique rank-1 matrix factorization.
+Kulak campus of [KU Leuven](https://kuleuven.be/english/kuleuven/). My research area is **numerical linear algebra** and **scientific computing**. I am particularly interested in **tensor-based algorithms**
+and **finite precision arithmetic**. Currently,I am working under the supervision of 
+Prof. [Lieven De Lathauwer](https://www.esat.kuleuven.be/stadius/person.php?id=22) on developing a numerical algorithm for computing the <em>Canonical Polyadic</em> tensor <em>Decomposition</em> and a generically unique rank-1 matrix factorization.
 
-I received my Ph.D. in 2022 at the [Inria Center of the University of Bordeaux](https://inria.fr/en/inria-centre-university-bordeaux) under the 
-supervision of [Olivier Coulaud](https://people.bordeaux.inria.fr/coulaud/) and [Luc Giraud](https://team.inria.fr/hiepacs/team-members/luc-giraud/), both members of the [Concace](https://concace.gitlabpages.inria.fr/)
-research team. In my Ph.D. thesis, I experimentally studied the <em>Generalized Minimal RESidual</em>
-method adapted to the <em>Tensor Train</em> format, paying particular attention to parametric problems. Another addressed topic is the <em>loss of orthogonality</em> of common orthogonalization kernels extended to the tensor framework, linking classical finite precision arithmetic theoretical results with tensor experimental results. The thesis includes two studies of <em>data science</em> problems, developed during the collaboration with ecological and climatology research team.
+In 2022, I obtained my Ph.D. at the [Inria Center of the University of Bordeaux](https://inria.fr/en/inria-centre-university-bordeaux) under the 
+supervision of Prof. [Olivier Coulaud](https://people.bordeaux.inria.fr/coulaud/) and Prof. [Luc Giraud](https://team.inria.fr/hiepacs/team-members/luc-giraud/), both members of the [Concace](https://concace.gitlabpages.inria.fr/)
+research team. In my Ph.D. thesis, I conducted experimental research on the <em>Generalized Minimal RESidual</em>
+method adapted to the <em>Tensor Train</em> format.  I paid particular attention to parametric problems and also addressed the issue of the <em>loss of orthogonality</em> of common orthogonalization kernels extended to the tensor framework. This linked classical finite precision arithmetic theoretical results with tensor experimental results. The thesis comprises two studies on <em>data science</em> problems, that were developed in collaboration with an ecological and climatology research team.
 
 <!-- 
 <mark style="background:var(--global-mark-bg-color)">

@@ -34,7 +34,10 @@
 
 
 %%%%%%%%%%%% Internation journals 
-﻿@Article{Thouverai2021,
+
+
+
+@Article{Thouverai2021,
 	author={Thouverai, Elisa
 	and Marcantonio, Matteo
 	and Bacaro, Giovanni
@@ -130,7 +133,7 @@
 @inproceedings{Iannacito2023AG,
 	TITLE = {{On Some Orthogonalization Schemes in Tensor Train Format}},
 	AUTHOR = {Iannacito, Martina and Coulaud, Olivier and Giraud, Luc},
-	PDF = {},
+	PDF = {slides/AG23.pdf},
 	booktitle = {{Geometry in Optimization and Numerical (Multi)Linear Algebra}},
 	editor = {{K. Usevich, and Y. Qi}},
 	publisher = {{SIAM Conference on Applied Algebraic Geometry}},
@@ -178,7 +181,7 @@
 @inproceedings{Iannacito202329NAC,
 	TITLE = {Orthogonalization schemes in Tensor Train format},
 	AUTHOR = {Iannacito, Martina and Coulaud, Olivier and Giraud, Luc},
-	PDF = {},
+	PDF = {slides/29NA.pdf},
 	BOOKTITLE = {{Approximate computing in numerical linear algebra}},
 	EDITOR = {{N. Higham, X. Liu, and B. Vieubl\'e}},
 	SERIES = {},
@@ -197,6 +200,7 @@
 
 
 %%%%%%%%%%%%%%%%% research report
+
 
 @techreport{Coulaud2022b,
 	TITLE = {{On some orthogonalization schemes in Tensor Train format}},
@@ -245,15 +249,15 @@
 	NUMBER = {RR-9484},
 	PAGES = {1-48},
 	INSTITUTION = {Inria center at the University of Bordeaux}, 
+	YEAR = {2022},
 	MONTH = Sep,
-	KEYWORDS = {GMRES ; backward stability ; Tensor Train format ; backward stabilit{\'e} ; format Tenseur Train},
 	PDF = {https://hal.science/hal-03776529v3},
 	HAL_ID = {hal-03776529},
 	HAL_VERSION = {v3},
 	keywords = {report},
 	bibtex_show = True,
 	abbr = {HAL},
-	abstract = {We consider the solution of linear systems with tensor product structure using a GMRES algorithm. In order to cope with the computational complexity in large dimension both in terms of floating point operations and memory requirement, our algorithm is based on low-rank tensor representation, namely the Tensor Train format. In a backward error analysis framework, we show how the tensor approximation affects the accuracy of the computed solution. With the bacwkward perspective, we investigate the situations where the (𝑑+1)-dimensional problem to be solved results from the concatenation of a sequence of 𝑑-dimensional problems (like parametric linear operator or parametric right-hand side problems), we provide backward error bounds to relate the accuracy of the (𝑑+1)-dimensional computed solution with the numerical quality of the sequence of 𝑑-dimensional solutions that can be extracted form it. This enables to prescribe convergence threshold when solving the (𝑑+1)-dimensional problem that ensures the numerical quality of the 𝑑-dimensional solutions that will be extracted from the (𝑑+1)-dimensional computed solution once the solver has converged. The above mentioned features are illustrated on a set of academic examples of varying dimensions and sizes.}
+	abstract = {We consider the solution of linear systems with tensor product structure using a GMRES algorithm. In order to cope with the computational complexity in large dimension both in terms of floating point operations and memory requirement, our algorithm is based on low-rank tensor representation, namely the Tensor Train format. In a backward error analysis framework, we show how the tensor approximation affects the accuracy of the computed solution. With the bacwkward perspective, we investigate the situations where the (𝑑+1)-dimensional problem to be solved results from the concatenation of a sequence of 𝑑-dimensional problems (like parametric linear operator or parametric right-hand side problems), we provide backward error bounds to relate the accuracy of the (𝑑+1)-dimensional computed solution with the numerical quality of the sequence of 𝑑-dimensional solutions that can be extracted form it. This enables to prescribe convergence threshold when solving the (𝑑+1)-dimensional problem that ensures the numerical quality of the 𝑑-dimensional solutions that will be extracted from the (𝑑+1)-dimensional computed solution once the solver has converged. The above mentioned features are illustrated on a set of academic examples of varying dimensions and sizes.},
 	}
 
 @techreport{Coulaud2021,
@@ -300,7 +304,7 @@
 @inproceedings{Iannacito2023BIRS,
 	TITLE = {{An algebraic algorithm for blind source separation and tensor decomposition}},
 	AUTHOR = {Iannacito, Martina and De Lathauwer, Lieven and Domanov, Ignat},
-	PDF = {},
+	PDF = {slides/BIRS.pdf},
 	booktitle = {{New Directions in Applied Linear Algebra}},
 	ADDRESS = {Banff, Canada},
 	EDITOR = {{J. Cockayne, J. Pearson, J. Pestana, D. Silvester, and V. Simoncini}},
@@ -317,7 +321,7 @@
 @inproceedings{Iannacito2023METTX,
 	TITLE = {{An algebraic algorithm for blind source separation and tensor decomposition}},
 	AUTHOR = {Iannacito, Martina and De Lathauwer, Lieven and Domanov, Ignat},
-	PDF = {},
+	PDF = {slides/METTX.pdf},
 	booktitle = {{Matrix Equations and Tensor Techniques X}},
 	publisher = {RWTH Aachen University},
 	ADDRESS = {Aachen, Germany},
@@ -343,7 +347,8 @@
 	ADDRESS = {Toulouse, France},
 	YEAR = {2023},
 	MONTH = Dec,
-	keywords = {seminar}
+	keywords = {seminar},
+	pdf = {slides/APO.pdf}
 }
 
 
@@ -355,6 +360,8 @@
 	ADDRESS = {Pisa, Italy},
 	YEAR = {2023},
 	MONTH = Nov,
+	html = {https://pysanum.dm.unipi.it/seminari-passati/},
+	pdf = {slides/pysanum.pdf},
 	keywords = {seminar}
 }
 
@@ -367,7 +374,9 @@
 	ADDRESS = {Trento, Italy},
 	YEAR = {2023},
 	MONTH = Nov,
-	keywords = {seminar}
+	keywords = {seminar},
+	html = {https://tensordec.maths.unitn.it/#seminars},
+	pdf = {slides/tensorday.pdf}
 }
 
 @inproceedings{Iannacito2023Numa,
@@ -378,7 +387,9 @@
 	ADDRESS = {Leuven, Belgium},
 	YEAR = {2023},
 	MONTH = Oct,
-	keywords = {seminar}
+	keywords = {seminar},
+	html = {https://wms.cs.kuleuven.be/groups/NUMA/events},
+	pdf = {slides/NUMA.pdf}
 }
 
 @inproceedings{Iannacito2022GT,
