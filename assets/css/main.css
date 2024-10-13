@@ -39,14 +39,14 @@ html[data-theme=dark] {
   --global-bg-color: #1C1C1D;
   --global-mark-bg-color: rgba(38, 152, 186, 0.5);
   --global-code-bg-color: #2c3237;
-  --global-text-color: #cfcfcf;
-  --global-text-color-light: #cfcfcf;
+  --global-text-color: rgb(206.5, 206.5, 206.5);
+  --global-text-color-light: rgb(206.5, 206.5, 206.5);
   --global-theme-color: #2698BA;
   --global-hover-color: #2698BA;
   --global-footer-bg-color: #1C1C1D;
-  --global-footer-text-color: #cfcfcf;
-  --global-footer-link-color: #cfcfcf;
-  --global-distill-app-color: #cfcfcf;
+  --global-footer-text-color: rgb(206.5, 206.5, 206.5);
+  --global-footer-link-color: rgb(206.5, 206.5, 206.5);
+  --global-distill-app-color: rgb(206.5, 206.5, 206.5);
   --global-divider-color: #424246;
   --global-card-bg-color: #212529;
 }
