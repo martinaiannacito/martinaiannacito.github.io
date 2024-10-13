@@ -2,16 +2,16 @@
 layout: about
 title: 
 permalink: /
-subtitle: <a href='https://www.kuleuven.be/wieiswie/en/person/00162560'>Postdoctoral fellow, ESAT, KU Leuven</a>
+subtitle: <a href='https://www.unibo.it/sitoweb/martina.iannacito/en'>Postdoctoral fellow, Alma Mater Studiorum - University of Bologna</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>room 00.329</p>
-    <p>Etienne Sabbelaan 53</p>
-    <p>8500 Kortrijk, Belgium</p>
+    <p>Dipartimento di Matematica</p>
+    <p>Piazza di Porta S.Donato 5</p>
+    <p>40126 Bologna, Italy</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -19,10 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher in the Science, Engineering and Technology group at the 
-Kulak campus of [KU Leuven](https://kuleuven.be/english/kuleuven/). My research area is **numerical linear algebra** and **scientific computing**. I am particularly interested in **tensor-based algorithms**
-and **finite precision arithmetic**. Currently,I am working under the supervision of 
-Prof. [Lieven De Lathauwer](https://www.esat.kuleuven.be/stadius/person.php?id=22) on developing a numerical algorithm for computing the <em>Canonical Polyadic</em> tensor <em>Decomposition</em> and a generically unique rank-1 matrix factorization.
+I am a postdoctoral researcher in the numerical analysis group at the [Departement of Mathematics of Alma Mater Studiorum - University of Bologna](https://matematica.unibo.it/it/index.html). My research area is **numerical linear algebra** and **scientific computing**. I am particularly interested in **tensor-based algorithms**
+and **finite precision arithmetic**. In 2024, I joined the 2022 PRIN project [Low-rank Structures and Numerical Methods in Matrix and Tensor Computations and their Application](https://prinum22.cs.dm.unipi.it/). My work is supervised by Prof. [Valeria Simoncini](https://www.unibo.it/sitoweb/valeria.simoncini), Prof. [Davide Palitta](https://www.unibo.it/sitoweb/davide.palitta) and Prof. [Michele Ruggeri](https://www.unibo.it/sitoweb/m.ruggeri). The project focuses on <em>matrix and tensors equations for PDE, low low-rank approximation and data science applications</em>. Between May 2023 and March 2024, I was a research fellow in the Science, Engineering and Technology group at the Kulak campus of [KU Leuven](https://kuleuven.be/english/kuleuven/). I worked on the development of numerical algorithms for computing the <em>Canonical Polyadic tensorDecomposition</em>
+
 
 In 2022, I obtained my Ph.D. at the [Inria Center of the University of Bordeaux](https://inria.fr/en/inria-centre-university-bordeaux) under the 
 supervision of Prof. [Olivier Coulaud](https://people.bordeaux.inria.fr/coulaud/) and Prof. [Luc Giraud](https://team.inria.fr/hiepacs/team-members/luc-giraud/), both members of the [Concace](https://concace.gitlabpages.inria.fr/)
