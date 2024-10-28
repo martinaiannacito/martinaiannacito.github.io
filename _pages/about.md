@@ -24,7 +24,7 @@ and **finite precision arithmetic**. In 2024, I joined the 2022 PRIN project [Lo
 
 
 In 2022, I obtained my Ph.D. at the [Inria Center of the University of Bordeaux](https://inria.fr/en/inria-centre-university-bordeaux) under the 
-supervision of Prof. [Olivier Coulaud](https://people.bordeaux.inria.fr/coulaud/) and Prof. [Luc Giraud](https://team.inria.fr/hiepacs/team-members/luc-giraud/), both members of the [Concace](https://concace.gitlabpages.inria.fr/)
+supervision of Prof. [Olivier Coulaud](https://people.bordeaux.inria.fr/coulaud/) and Prof. [Luc Giraud](https://concace.gitlabpages.inria.fr/members/luc-giraud/), both members of the [Concace](https://concace.gitlabpages.inria.fr/)
 research team. In my Ph.D. thesis, I conducted experimental research on the <em>Generalized Minimal RESidual</em>
 method adapted to the <em>Tensor Train</em> format.  I paid particular attention to parametric problems and also addressed the issue of the <em>loss of orthogonality</em> of common orthogonalization kernels extended to the tensor framework. This linked classical finite precision arithmetic theoretical results with tensor experimental results. The thesis comprises two studies on <em>data science</em> problems, that were developed in collaboration with an ecological and climatology research team.
 
