@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a postdoctoral researcher in the numerical analysis group at the [Departement of Mathematics of Alma Mater Studiorum - University of Bologna](https://matematica.unibo.it/it/index.html). My research area is **numerical linear algebra** and **scientific computing**. I am particularly interested in **tensor-based algorithms**
+I am a postdoctoral researcher in the numerical analysis group at the [Departement of Mathematics of Alma Mater Studiorum - University of Bologna](https://matematica.unibo.it/it/index.html). My research area is **numerical linear algebra** and **scientific computing**. I am particularly interested in **tensor-based algorithms**, **low-rank methods** for linear systems
 and **finite precision arithmetic**. In 2024, I joined the 2022 PRIN project [Low-rank Structures and Numerical Methods in Matrix and Tensor Computations and their Application](https://prinum22.cs.dm.unipi.it/). My work is supervised by Prof. [Valeria Simoncini](https://www.unibo.it/sitoweb/valeria.simoncini), Prof. [Davide Palitta](https://www.unibo.it/sitoweb/davide.palitta) and Prof. [Michele Ruggeri](https://www.unibo.it/sitoweb/m.ruggeri). The project focuses on <em>matrix and tensors equations for PDE, low low-rank approximation and data science applications</em>. Between May 2023 and March 2024, I was a research fellow in the Science, Engineering and Technology group at the Kulak campus of [KU Leuven](https://kuleuven.be/english/kuleuven/). I worked on the development of numerical algorithms for computing the <em>Canonical Polyadic tensor Decomposition</em>
 
 
