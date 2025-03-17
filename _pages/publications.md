@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: 
-years: [2022, 2021, 2019]
+years: [2025, 2022, 2021, 2019]
 nav: true
 nav_order: 1
 
@@ -29,11 +29,11 @@ nav_order: 1
     {% bibliography_count -f {{ site.scholar.bibliography }} -q @*[keywords=intjour && year={{y}}]* %}
   {% endcapture %}
   {% capture bib_count2 %}
-  {% bibliography_count -f {{ site.scholar.bibliography }} -q @*[keywords=natjour && year={{y}}]* %}
+    {% bibliography_count -f {{ site.scholar.bibliography }} -q @*[keywords=natjour && year={{y}}]* %}
   {% endcapture %}
   {% assign bib_count1 = bib_count1 | plus: 0 %}
   {% assign bib_count2 = bib_count2 | plus: 0 %}
-  {% if bib_count1 > 0 and bib_count2 > 0 %}
+  {% if bib_count1 > 0 or bib_count2 > 0 %}
     <h2 class="year">{{y}}</h2>
     {% bibliography -f {{ site.scholar.bibliography }} -q @*[tag=journal && year={{y}}]*  %}
   {% endif %}

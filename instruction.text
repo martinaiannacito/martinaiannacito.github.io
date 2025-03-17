@@ -1,0 +1,10 @@
+# SET-UP to work with jekyll webpage
+## 1. install rbenv from git by installer
+wget -q https://github.com/rbenv/rbenv-installer/raw/HEAD/bin/rbenv-installer -O- | bash
+## 2. install version
+rbenv install 3.1.2
+## 3. activate Ruby
+rbenv local 3.1.2
+## 4. local setup
+bundle install
+ bundle exec jekyll serve --lsi
