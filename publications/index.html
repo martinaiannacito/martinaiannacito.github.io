@@ -143,7 +143,79 @@
   
   
     <h2 class="year">2025</h2>
-    <ol class="bibliography"><li>
+    <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">HAL</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="coulaud:hal-05017425" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Solving eigenvalue problems in high dimensions using contour integration and Tensor Train format</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Olivier Coulaud, Luc Giraud, <em>Martina Iannacito</em>, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Mohammad Issa' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '99');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          Apr 2025
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+            <a href="https://inria.hal.science/hal-05017425v2/file/RR-9586.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>In high dimensions, solving an eigenvalue problem encounters challenges related to the curse of dimensionality, particularly when targeting eigenpairs within a specific interval. To address these difficulties, we extend the FEAST algorithm, which is based on contour integration and traditionally applied to Hermitian eigenproblems, by integrating it with the Tensor-Train (TT) decomposition. This combination allows both operators and eigenvectors to be efficiently represented in TT-format, significantly reducing storage and computation requirements. We propose an adaptive strategy to determine the dimension of the projection space by integrating a rank-revealing Modified Gram-Schmidt procedure with pivoting adapted for TT-vectors. A perturbation analysis provides an explicit bound for the attainable residual accuracy, leading to a stopping criterion for the TT-FEAST algorithm. Additionally, we introduce a continuation procedure that progressively refines convergence and rounding thresholds, effectively managing memory growth during computation. The proposed algorithm is applied to high-dimensional problems, including the Laplacian operator and the vibrational Hamiltonian, demonstrating high efficiency and accuracy. We validate our results by comparing them with an analytical solution for the Laplacian operator and with an existing TT-based method for computing minimal eigenpairs for the vibrational Hamiltonian.</p>
+          </div>
+<!-- Hidden bibtex block -->
+          <div class="bibtex hidden">
+            <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@techreport</span><span class="p">{</span><span class="nl">coulaud:hal-05017425</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Solving eigenvalue problems in high dimensions using contour integration and Tensor Train format}}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Coulaud, Olivier and Giraud, Luc and Iannacito, Martina and Issa, Mohammad}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://inria.hal.science/hal-05017425v2}</span><span class="p">,</span>
+  <span class="na">number</span> <span class="p">=</span> <span class="s">{RR-9586}</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{19}</span><span class="p">,</span>
+  <span class="na">institution</span> <span class="p">=</span> <span class="s">{{Inria}}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2025}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">apr</span><span class="p">,</span>
+  <span class="na">keywords</span> <span class="p">=</span> <span class="s">{report}</span><span class="p">,</span>
+  <span class="na">hal_id</span> <span class="p">=</span> <span class="s">{hal-05017425}</span><span class="p">,</span>
+  <span class="na">hal_version</span> <span class="p">=</span> <span class="s">{v2}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div>
@@ -197,7 +269,8 @@
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
   
 
   
