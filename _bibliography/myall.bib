@@ -239,6 +239,25 @@ abstract = {We study the solution of linear systems with tensor product structur
 
 %%%%%%%%%%%%%%%%% research report
 
+
+@techreport{coulaud:hal-05017425,
+	TITLE = {{Solving eigenvalue problems in high dimensions using contour integration and Tensor Train format}},
+	AUTHOR = {Coulaud, Olivier and Giraud, Luc and Iannacito, Martina and Issa, Mohammad},
+	URL = {https://inria.hal.science/hal-05017425v2},
+	NUMBER = {RR-9586},
+	PAGES = {19},
+	INSTITUTION = {{Inria}},
+	YEAR = {2025},
+	MONTH = Apr,
+	abstract = {In high dimensions, solving an eigenvalue problem encounters challenges related to the curse of dimensionality, particularly when targeting eigenpairs within a specific interval. To address these difficulties, we extend the FEAST algorithm, which is based on contour integration and traditionally applied to Hermitian eigenproblems, by integrating it with the Tensor-Train (TT) decomposition. This combination allows both operators and eigenvectors to be efficiently represented in TT-format, significantly reducing storage and computation requirements. We propose an adaptive strategy to determine the dimension of the projection space by integrating a rank-revealing Modified Gram-Schmidt procedure with pivoting adapted for TT-vectors. A perturbation analysis provides an explicit bound for the attainable residual accuracy, leading to a stopping criterion for the TT-FEAST algorithm. Additionally, we introduce a continuation procedure that progressively refines convergence and rounding thresholds, effectively managing memory growth during computation. The proposed algorithm is applied to high-dimensional problems, including the Laplacian operator and the vibrational Hamiltonian, demonstrating high efficiency and accuracy. We validate our results by comparing them with an analytical solution for the Laplacian operator and with an existing TT-based method for computing minimal eigenpairs for the vibrational Hamiltonian.},
+	keywords = {report},
+	PDF = {https://inria.hal.science/hal-05017425v2/file/RR-9586.pdf},
+	HAL_ID = {hal-05017425},
+	HAL_VERSION = {v2},
+	bibtex_show = True,
+	abbr = {HAL}
+}
+
 @techreport{palitta2025SsCG,
 	title={A subspace-conjugate gradient method for linear matrix equations}, 
 	author={Palitta, Davide and Iannacito, Martina and Simoncini, Valeria},
