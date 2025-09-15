@@ -35,21 +35,6 @@
 
 %%%%%%%%%%%% Internation journals 
 
-%@article{palitta2025SsCG,
-%	title = {A subspace-conjugate gradient method for linear matrix equations}, 
-%	author = {Palitta, Davide and Iannacito, Martina and Simoncini, Valeria},
-%	journal = {SIAM Journal on Matrix Analysis and Applications},
-%	year = {2025},
-%	pages  = {to appear},
-%	keywords = {intjour},
-%	abbr = {SIAM},
-%	bibtex_show = True,
-%	url = {https://arxiv.org/abs/2501.02938}, 
-%	PDF = {https://arxiv.org/pdf/2501.02938},
-%	abstract = {The efficient solution of large-scale multiterm linear matrix equations is a challenging task in numerical linear algebra, and it is a largely open problem. We propose a new iterative scheme for symmetric and positive definite operators, significantly advancing methods such as truncated matrix-oriented Conjugate Gradients (cg). The new algorithm capitalizes on the low-rank matrix format of its iterates by fully exploiting the subspace information of the factors as iterations proceed. The approach implicitly relies on orthogonality conditions imposed over much larger subspaces than in cg, unveiling insightful connections with subspace projection methods. The new method is also equipped with memory-saving strategies. In particular, we show that for a given matrix Y , the action L(Y) in low rank format may not be evaluated exactly due to memory constraints. This problem is often underestimated, though it will eventually produce Out-of-Memory breakdowns for a sufficiently large number of terms. We propose an ad-hoc randomized range-finding strategy that appears to fully resolve this shortcoming. Experimental results with typical application problems illustrate the potential of our approach over various methods developed in the recent literature}
-%}
-
-
 @article{Coulaud2025Note,
 TITLE = {A note on TT-GMRES for the solution of parametric linear systems},
 AUTHOR = {Coulaud, Olivier and Giraud, Luc and Iannacito, Martina},
@@ -253,7 +238,23 @@ abstract = {We study the solution of linear systems with tensor product structur
 
 
 %%%%%%%%%%%%%%%%% research report
+@techreport{palitta2025SsCG,
+	title={A subspace-conjugate gradient method for linear matrix equations}, 
+	author={Palitta, Davide and Iannacito, Martina and Simoncini, Valeria},
+	year={2025},
+	month = Jan,
+	abstract = {The efficient solution of large-scale multiterm linear matrix equations is a challenging task in numerical linear algebra, and it is a largely open problem. We propose a new iterative scheme for symmetric and positive definite operators, significantly advancing methods such as truncated matrix-oriented Conjugate Gradients (CG). The new algorithm capitalizes on the low-rank matrix format of its iterates by fully exploiting the subspace information of the factors as iterations proceed. The approach implicitly relies on orthogonality conditions imposed over much larger subspaces than in CG, unveiling insightful connections with subspace projection methods. The new method is also equipped with memory-saving strategies. In particular, we show that for a given matrix Y, the action L(Y) in low rank format may not be evaluated exactly due to memory constraints. This problem is often underestimated, though it will eventually produce Out-of-Memory breakdowns for a sufficiently large number of terms. We propose an ad-hoc randomized range-finding strategy that appears to fully resolve this shortcoming. Experimental results with typical application problems illustrate the potential of our approach over various methods developed in the recent literature.},
+	eprint={2501.02938},
+	archivePrefix={arXiv},
+	primaryClass={math.NA},
+	keywords = {report},
+	url = {https://arxiv.org/abs/2501.02938}, 
+	PDF = {https://arxiv.org/pdf/2501.02938},
+	bibtex_show = True,
+	abbr = {arXiv},
+	abstract = {The efficient solution of large-scale multiterm linear matrix equations is a challenging task in numerical linear algebra, and it is a largely open problem. We propose a new iterative scheme for symmetric and positive definite operators, significantly advancing methods such as truncated matrix-oriented Conjugate Gradients (cg). The new algorithm capitalizes on the low-rank matrix format of its iterates by fully exploiting the subspace information of the factors as iterations proceed. The approach implicitly relies on orthogonality conditions imposed over much larger subspaces than in cg, unveiling insightful connections with subspace projection methods. The new method is also equipped with memory-saving strategies. In particular, we show that for a given matrix Y , the action L(Y) in low rank format may not be evaluated exactly due to memory constraints. This problem is often underestimated, though it will eventually produce Out-of-Memory breakdowns for a sufficiently large number of terms. We propose an ad-hoc randomized range-finding strategy that appears to fully resolve this shortcoming. Experimental results with typical application problems illustrate the potential of our approach over various methods developed in the recent literature},
 
+}
 
 @techreport{coulaud:hal-05017425,
 	TITLE = {{Solving eigenvalue problems in high dimensions using contour integration and Tensor Train format}},
@@ -273,21 +274,7 @@ abstract = {We study the solution of linear systems with tensor product structur
 	abbr = {HAL}
 }
 
-%@techreport{palitta2025SsCG,
-%	title={A subspace-conjugate gradient method for linear matrix equations}, 
-%	author={Palitta, Davide and Iannacito, Martina and Simoncini, Valeria},
-%	year={2025},
-%	month = Jan,
-%	abstract = {The efficient solution of large-scale multiterm linear matrix equations is a challenging task in numerical linear algebra, and it is a largely open problem. We propose a new iterative scheme for symmetric and positive definite operators, significantly advancing methods such as truncated matrix-oriented Conjugate Gradients (CG). The new algorithm capitalizes on the low-rank matrix format of its iterates by fully exploiting the subspace information of the factors as iterations proceed. The approach implicitly relies on orthogonality conditions imposed over much larger subspaces than in CG, unveiling insightful connections with subspace projection methods. The new method is also equipped with memory-saving strategies. In particular, we show that for a given matrix Y, the action L(Y) in low rank format may not be evaluated exactly due to memory constraints. This problem is often underestimated, though it will eventually produce Out-of-Memory breakdowns for a sufficiently large number of terms. We propose an ad-hoc randomized range-finding strategy that appears to fully resolve this shortcoming. Experimental results with typical application problems illustrate the potential of our approach over various methods developed in the recent literature.},
-%	eprint={2501.02938},
-%	archivePrefix={arXiv},
-%	primaryClass={math.NA},
-%	keywords = {report},
-%	url = {https://arxiv.org/abs/2501.02938}, 
-%	PDF = {https://arxiv.org/pdf/2501.02938},
-%	bibtex_show = True,
-%	abbr = {arXiv}
-%}
+
 
 @techreport{Coulaud2022b,
 	TITLE = {{On some orthogonalization schemes in Tensor Train format}},
@@ -373,10 +360,11 @@ abstract = {We study the solution of linear systems with tensor product structur
 @inproceedings{Iannacito2025INdAM,
 	TITLE = {{A Subspace-Conjugate Gradient method for linear matrix equations}},
 	AUTHOR = {Iannacito, Martina and Palitta, Davide and Simoncini, Valeria},
-	booktitle = {INdAM Workshop: Low-rank Structures and Numerical Methods in Matrix and Tensor Computations},
+	booktitle = {Low-rank Structures and Numerical Methods in Matrix and Tensor Computations},
 	ADDRESS = {Cortona, Italy},
-	EDITOR = {Benzi, Michele and Meini, Beatrice and Simoncini, Valeria and Durastante, Fabio and Pagliantini, Cecilia and Palitta, Davide},
+	EDITOR = {{M. Benzi, B. Meini, V. Simoncini, F. Durastante, C. Pagliantini, and D. Palitta}},
 	YEAR = {2025},
+	publisher = {INdAM Workshop},
 	MONTH = Sep,
 	keywords = {workshop},
 	abbr = {INdAM 25},
