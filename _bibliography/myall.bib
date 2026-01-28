@@ -35,6 +35,23 @@
 
 %%%%%%%%%%%% Internation journals 
 
+@article{Coulaud2022b,
+	title = {On some orthogonalization schemes in Tensor Train format},
+	author = {Coulaud, Olivier and Giraud, Luc and Iannacito, Martina},
+	journal = {BIT Numerical Mathematics},
+	issue = {In Celebration of the 90th Birthday of {\AA}ke Bj\"ork},
+	number={4},
+	pages={45},
+	month = {oct},
+	year = {2025},
+	doi = {10.1007/s10543-025-01086-5},
+	URL = {https://doi.org/10.1007/s10543-025-01086-5},
+	keywords = {journal},
+	abstract = {In the framework of tensor spaces, we consider orthogonalization kernels to generate an orthogonal basis of a tensor subspace from a set of linearly independent tensors. In particular, we investigate numerically the loss of orthogonality of six orthogonalization methods, namely Classical and Modified Gram-Schmidt with (CGS2, MGS2) and without (CGS, MGS) re-orthogonalization, the Gram approach, and the Householder transformation. To tackle the curse of dimensionality, we represent tensor with low rank approximation using the Tensor Train (TT) formalism, and we introduce recompression steps in the standard algorithm outline through the TT-rounding method at a prescribed accuracy. After describing the algorithm structure and properties, we illustrate numerically that the theoretical bounds for the loss of orthogonality in the classical matrix computation round-off analysis results are maintained, with the unit round-off replaced by the TT-rounding accuracy. The computational analysis for each orthogonalization kernel in terms of the memory requirement and the computational complexity measured as a function of the number of TT-rounding, which happens to be the computational most expensive operation, completes the study.},
+	bibtex_show = True,
+	abbr = {BIT},
+}
+
 @article{Coulaud2025Note,
 TITLE = {A note on TT-GMRES for the solution of parametric linear systems},
 AUTHOR = {Coulaud, Olivier and Giraud, Luc and Iannacito, Martina},
@@ -276,24 +293,7 @@ abstract = {We study the solution of linear systems with tensor product structur
 
 
 
-@techreport{Coulaud2022b,
-	TITLE = {{On some orthogonalization schemes in Tensor Train format}},
-	AUTHOR = {Coulaud, Olivier and Giraud, Luc and Iannacito, Martina},
-	URL = {hal.archives-ouvertes.fr/hal-03850387},
-	TYPE = {Research Report},
-	NUMBER = {{RR-9491}},
-	INSTITUTION = {Inria center at the University of Bordeaux}, 
-	YEAR = {2022},
-	MONTH = Nov,
-	KEYWORDS = {Classical Gram-Schmidt ; Modified Gram-Schmidt ; Householder transformation ; loss of orthogonality ; Tensor Train format ; Gram-Schmidt classique ; Gram-Schmidt modifi{\'e}e ; transformation de Householder ; perte d'orthogonalit{\'e} ; Tensor Train format},
-	PDF = {https://hal.science/hal-03850387},
-	HAL_ID = {hal-03850387},
-	HAL_VERSION = {v2},
-	keywords = {report},
-	abstract = {In the framework of tensor spaces, we consider orthogonalization kernels to generate an orthogonal basis of a tensor subspace from a set of linearly independent tensors. In particular, we investigate numerically the loss of orthogonality of six orthogonalization methods, namely Classical and Modified Gram-Schmidt with (CGS2, MGS2) and without (CGS, MGS) re-orthogonalization, the Gram approach, and the Householder transformation. To tackle the curse of dimensionality, we represent tensor with low rank approximation using the Tensor Train (TT) formalism, and we introduce recompression steps in the standard algorithm outline through the TT-rounding method at a prescribed accuracy. After describing the algorithm structure and properties, we illustrate numerically that the theoretical bounds for the loss of orthogonality in the classical matrix computation round-off analysis results are maintained, with the unit round-off replaced by the TT-rounding accuracy. The computational analysis for each orthogonalization kernel in terms of the memory requirement and the computational complexity measured as a function of the number of TT-rounding, which happens to be the computational most expensive operation, completes the study.},
-	bibtex_show = True,
-	abbr = {HAL}
-}
+
 
 @techreport{Agullo2022,
 	TITLE = {{The backward stable variants of GMRES in variable accuracy}},
